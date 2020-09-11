@@ -1,0 +1,84 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 06/09/2020 13:39
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-dashboard:before { content: "\f100"; }
+.flaticon-plus-sign:before { content: "\f101"; }
+.flaticon-visibility:before { content: "\f102"; }
+.flaticon-image:before { content: "\f103"; }
+.flaticon-banner:before { content: "\f104"; }
+.flaticon-portfolio:before { content: "\f105"; }
+.flaticon-statistics:before { content: "\f106"; }
+.flaticon-gift:before { content: "\f107"; }
+.flaticon-gear:before { content: "\f108"; }
+.flaticon-star:before { content: "\f109"; }
+.flaticon-controls:before { content: "\f10a"; }
+.flaticon-tap:before { content: "\f10b"; }
+.flaticon-file:before { content: "\f10c"; }
+.flaticon-search:before { content: "\f10d"; }
+.flaticon-user:before { content: "\f10e"; }
+.flaticon-notification:before { content: "\f10f"; }
+.flaticon-about:before { content: "\f110"; }
+.flaticon-user-1:before { content: "\f111"; }
+.flaticon-telemarketer:before { content: "\f112"; }
+.flaticon-graduation-hat:before { content: "\f113"; }
+.flaticon-down-arrow:before { content: "\f114"; }
+.flaticon-logout:before { content: "\f115"; }
+    
+    $font-Flaticon-dashboard: "\f100";
+    $font-Flaticon-plus-sign: "\f101";
+    $font-Flaticon-visibility: "\f102";
+    $font-Flaticon-image: "\f103";
+    $font-Flaticon-banner: "\f104";
+    $font-Flaticon-portfolio: "\f105";
+    $font-Flaticon-statistics: "\f106";
+    $font-Flaticon-gift: "\f107";
+    $font-Flaticon-gear: "\f108";
+    $font-Flaticon-star: "\f109";
+    $font-Flaticon-controls: "\f10a";
+    $font-Flaticon-tap: "\f10b";
+    $font-Flaticon-file: "\f10c";
+    $font-Flaticon-search: "\f10d";
+    $font-Flaticon-user: "\f10e";
+    $font-Flaticon-notification: "\f10f";
+    $font-Flaticon-about: "\f110";
+    $font-Flaticon-user-1: "\f111";
+    $font-Flaticon-telemarketer: "\f112";
+    $font-Flaticon-graduation-hat: "\f113";
+    $font-Flaticon-down-arrow: "\f114";
+    $font-Flaticon-logout: "\f115";
