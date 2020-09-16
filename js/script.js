@@ -14,6 +14,24 @@
         }
     });
 
+    $('#workspace-form').on('submit', function (event) {
+        event.preventDefault();
+        // let value = $('#workspace-input').val();
+        // if (value.length > 0) {
+        //     workspaces.push({
+        //         name: value
+        //     });
+            $('#modal-create').modal('hide');
+            $('#workspace-input').val('');
+            $('.workspaces-wrap').css('display', 'flex');
+            $('.add-workspace-wrap').css('display', 'none');
+            // console.log(workspaces);
+        // } else {
+        //     $('.error').text('Please enter a name');
+        //     $('.workspace-input').focus();
+        // }
+    });
+
     $('.btn-add-pixel').on('click', function () {
         $('.shade').addClass('show-action');
     });
@@ -44,5 +62,9 @@
         $('.shade').removeClass('show-action-share');
         //$('.shade').addClass('show-action');
     });
+
+    $('.btn-share-now').on('click', function () {
+        $('.shade').addClass('show-action-share');
+    })
 
 })();
