@@ -532,8 +532,13 @@ body {
     align-items: center;
 }
 
+.header .stat {
+    width: 100%;
+    justify-content: space-between;
+}
+
 .header .stat .nav-item {
-    font-size: 0.5rem;
+    font-size: 0.9rem;
     margin-right: 0.4rem;
     font-weight: 600;
 }
