@@ -843,7 +843,7 @@ a:hover {
 
 .preview-settings .vid-info {
     margin-top: 0.6rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 .preview-settings .vid-info .vid-title {
@@ -874,7 +874,7 @@ a:hover {
 }
 
 .add-section .preview-stat .nav-item {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 
 .add-section .preview-stat .nav-item .head-icon::before {
