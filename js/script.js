@@ -86,6 +86,15 @@
         $('.shade').addClass('show-action-publish');
     });
 
+    $('.btn-download').on('click', function () {
+        $('.shade').addClass('show-action-download');
+    });
+
+    $('.btn-cancel-download').on('click', function () {
+        $('.shade').removeClass('show-action-download');
+        //$('.shade').addClass('show-action');
+    });
+    
     $('#cancel-publish').on('click', function () {
         $('.shade').removeClass('show-action-publish');
         //$('.shade').addClass('show-action');

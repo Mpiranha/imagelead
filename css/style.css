@@ -701,7 +701,8 @@ a:hover {
 .side-action,
 .side-action-edit,
 .side-action-publish,
-.side-action-share {
+.side-action-share,
+.side-action-download {
     position: fixed;
     top: 80px;
     right: 0;
@@ -718,20 +719,23 @@ a:hover {
 .show-action,
 .show-action-edit,
 .show-action-publish,
-.show-action-share {
+.show-action-share,
+.show-action-download {
     display: block;
 }
 
 .shade.show-action .side-action,
 .shade.show-action-edit .side-action-edit,
 .shade.show-action-publish .side-action-publish,
-.shade.show-action-share .side-action-share {
+.shade.show-action-share .side-action-share,
+.shade.show-action-download .side-action-download {
     display: block;
 }
 
 .side-action .title,
 .side-action-publish .title,
-.side-action-share .title {
+.side-action-share .title,
+.side-action-download .title {
     font-size: 1.1rem;
     color: #707070;
     font-weight: 500;
@@ -2213,6 +2217,27 @@ input:checked+.slider:before {
     margin: 0.7rem;
 }
 
+.pref-download {
+    margin-top: 2rem;
+}
+
+.pref-download .nav-item {
+    margin-bottom: 1rem;
+}
+
+.pref-download .nav-link {
+    background-color: transparent;
+    color: var(--brand-color);
+    border-radius: 0.5rem;
+    border: 2px solid var(--brand-color);
+    transition: all 0.8s;
+}
+
+.pref-download .nav-link:hover {
+    background-color: var(--brand-color);
+    color: #ffffff;
+    transform: scale(1.1);
+}
 /* .workspace-details .workspace-name::after {
     position: absolute;
     right: 12px;
