@@ -2191,7 +2191,7 @@ input:checked+.slider:before {
 
 .image-display {
     width: 100%;
-    height: calc(100% - 94px);
+    height: calc(100% - 158px);
     overflow-y: auto;
     display: flex;
     flex-wrap: wrap;
@@ -2237,6 +2237,27 @@ input:checked+.slider:before {
     background-color: var(--brand-color);
     color: #ffffff;
     transform: scale(1.1);
+}
+
+.test-title {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.test-title ~ .title {
+    margin-bottom: 1rem;
+}
+
+.test-title label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    width: 150px;
+    align-self: flex-end;
+}
+
+.test-title input {
+    background-color: transparent;
+    border-bottom: 1px solid #808080;
 }
 /* .workspace-details .workspace-name::after {
     position: absolute;
