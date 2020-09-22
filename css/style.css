@@ -2191,7 +2191,7 @@ input:checked+.slider:before {
 
 .image-display {
     width: 100%;
-    height: calc(100% - 158px);
+    height: calc(100% - 222px);
     overflow-y: auto;
     display: flex;
     flex-wrap: wrap;
@@ -2258,6 +2258,41 @@ input:checked+.slider:before {
 .test-title input {
     background-color: transparent;
     border-bottom: 1px solid #808080;
+}
+
+.select-boxes {
+    display: flex;
+}
+
+.select-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100px;
+    background-color: var(--brand-color);
+    margin: 0 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    box-shadow: 1px -2px 9px inset #c3c0c0;
+    transition: all 0.2s;
+}
+
+.select-box:active {
+    box-shadow: 2px 2px 2px inset #c3c0c0;
+}
+
+.select-box:last-child {
+    background-color: #f84e10;
+}
+
+.add-icons::before {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.select-box:last-child .add-icons::before {
+    color: #ffffff;
 }
 /* .workspace-details .workspace-name::after {
     position: absolute;
