@@ -21,6 +21,10 @@
                 aria-label="Toggle navigation"></button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav menu ml-auto">
+                    <li class="nav-item">
+                        <a data-toggle="modal" data-target="#feed-modal" href="#"
+                            class="btn btn-suggest">Suggestions</a>
+                    </li>
                     <li class="nav-item no-slash">
                         <a class="nav-link" href="#">
                             <span class="flaticon-notification icons menu-icon"></span>
@@ -218,6 +222,43 @@
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         <button type="button" class="btn btn-primary">Save changes</button>
                     </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg" id="feed-modal" tabindex="-1" role="dialog" aria-modal="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Feature Suggest</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-inner">
+                    <div class="form-group mb-0 px-4 mt-4">
+                        <label for="my-textarea">Tell about the next feature you would like to have on the box
+                            below</label>
+                        <textarea id="my-textarea" class="form-control" name="" rows="4"></textarea>
+                    </div>
+                    <div class="px-4">
+                        <a href="#" class="nav-link btn-new-updates">Check out new Updates(Coming soon)</a>
+                    </div>
+
+                    <div class="blue-bg">
+                        <p>
+                            This is not a support box. Messages from here goes to a no-reply email. if you send us a
+                            support message from here you will not get a reply.
+                        </p>
+                        <hr style="border-top: 1px solid #b1e1e9;">
+                        <p class="mb-0">
+                            Want to contact support quickly? Send an email to banrads@goclickhub.com
+                        </p>
+                    </div>
+
+                    <div class="px-4 mb-4">
+                        <button type="button" name="" id="" class="btn btn-submit-feature btn-lg btn-block">Submit</button>
+                    </div>
                 </div>
             </div>
         </div>
